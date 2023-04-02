@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lavender"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/lavender"
+            android:orientation="vertical"
+            tools:context=".MainActivity">
+
+            <WebView
+                android:id="@+id/webvidewCactusShy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:background="@null" />
+
+            <TextView
+                style="@style/TextViewTitleText"
+                android:text="@string/create_account"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/outlinedTextFieldNameSignUp"
+                style="@style/TextInputLayoutStyle"
+                android:layout_height="60dp"
+                android:hint="@string/name"
+                app:layout_constraintVertical_bias="0.365">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputEditNameSignUp"
+                    style="@style/TextInputEditTextStyleSign" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/outlinedTextFieldSurnameSignUp"
+                style="@style/TextInputLayoutStyle"
+                android:layout_height="60dp"
+                android:hint="@string/surname"
+                app:layout_constraintVertical_bias="0.628">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputEditSurnameSignUp"
+                    style="@style/TextInputEditTextStyleSign"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/outlinedTextFieldPhoneSignUp"
+                style="@style/TextInputLayoutStyle"
+                android:layout_height="60dp"
+                android:hint="@string/phone"
+                app:prefixText="+7"
+                app:prefixTextColor="@color/light_pastel_purple_dark"
+                app:layout_constraintVertical_bias="0.628">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputEditPhoneSignUp"
+                    style="@style/TextInputEditTextStyleSign"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/outlinedTextFieldEmailSignUp"
+                style="@style/TextInputLayoutStyle"
+                android:layout_height="60dp"
+                android:hint="@string/email">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputEditEmailSignUp"
+                    style="@style/TextInputEditTextStyleSign"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/outlinedTextFieldPasswordSignUp"
+                style="@style/TextInputLayoutStyle"
+                android:layout_height="60dp"
+                android:hint="@string/password"
+                app:layout_constraintVertical_bias="0.628">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputEditPasswordSignUp"
+                    style="@style/TextInputEditTextStyleSign"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/gradientButtonRegistered"
+                android:onClick="gotoMainChatActivityInSignUp"
+                style="@style/AppCompatButtonStyle"
+                android:text="@string/join_us"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

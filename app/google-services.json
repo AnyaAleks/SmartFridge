@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "827142640771",
+    "project_id": "cactus-chat-9253b",
+    "storage_bucket": "cactus-chat-9253b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827142640771:android:3f09683737b1407c43f7b6",
+        "android_client_info": {
+          "package_name": "com.example.mycactuschat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827142640771-1r2j456omrbnhfs44o46rapns28hhn55.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mycactuschat",
+            "certificate_hash": "714c5ac63323b69106170924c7fe3f7caa1b439b"
+          }
+        },
+        {
+          "client_id": "827142640771-8l38kculs7ua56g62kl4kb51nflq0qim.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxnpqh_krNeNu28L2wUY3U73zzWkAI7C4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "827142640771-8l38kculs7ua56g62kl4kb51nflq0qim.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

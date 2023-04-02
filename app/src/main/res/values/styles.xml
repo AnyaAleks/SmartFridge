@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--TextInputLayout in SignIn and SignUp-->
+    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">@color/dark_purple</item> <!--Цвет рамки label при вводе-->
+        <item name="hintTextColor">@color/dark_purple</item> <!--Цвет текта label при вводе-->
+        <item name="android:textColorHint">@color/dark_purple</item> <!--Цвет текста в label при просмотре-->
+        <item name="boxCornerRadiusBottomEnd">16dp</item> <!--Размер сгруглений-->
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="android:layout_width">288dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+    </style>
+
+    <!--TextInputEditText in SignIn and SignUp-->
+    <style name="TextInputEditTextStyleSign" parent="">
+        <item name="android:textColor">@color/dark_purple</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--Button Gradient Styles-->
+    <style name="AppCompatButtonStyle" parent="">
+        <item name="android:layout_width">288dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textColor">@color/lavender</item>
+        <item name="android:background">@drawable/shape_button</item>
+    </style>
+
+    <!--CardView Style-->
+    <style name="ShapeAppearanceOverlay.MaterialCardView.Cut" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">30dp</item>
+        <item name="cornerSizeTopLeft">30dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+
+    <!--CardView Style in Fragment Profile-->
+    <style name="ShapeAppearanceOverlay.MaterialCardView.Cut.Fragment" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">30dp</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeBottomRight">30dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+
+    <!--CardView Style in Fragment Contacts-->
+    <style name="ShapeAppearanceOverlay.MaterialCardView.Cut.Fragment.Contacts" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeTopLeft">30dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">30dp</item>
+    </style>
+
+    <!--CardView Style-->
+    <style name="ShapeAppearanceOverlay.MaterialCardView.Cut.DialogBar" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">35dp</item>
+        <item name="cornerSizeTopLeft">35dp</item>
+        <item name="cornerSizeBottomRight">35dp</item>
+        <item name="cornerSizeBottomLeft">35dp</item>
+    </style>
+
+    <!--Switches style-->
+    <style name="Widget.App.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Switch</item>
+    </style>
+    <style name="ThemeOverlay.App.Switch" parent="">
+        <item name="colorOnSurface">@color/purple_200</item>
+        <item name="colorSecondary">@color/dark_purple</item>
+    </style>
+
+    <!--TextView аor title text-->
+    <style name="TextViewTitleText" parent="">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/dark_purple</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Style for calendar-->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/dark_purple</item>
+        <item name="colorPrimaryDark">@color/dark_purple_gray</item>
+        <item name="colorAccent">@color/light_pastel_purple_dark</item>
+    </style>
+
+    <!--TextView upper TextInputEditText in Profile -->
+    <style name="TextViewProfileInfoStyle" parent="">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:textColor">@color/dark_purple</item>
+    </style>
+
+    <!--TextInputEditText in ???-->
+    <style name="TextInputEditTextStyle" parent="">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:backgroundTint">@color/dark_purple</item>
+    </style>
+
+<!--    switch style-->
+    <style name="MySwitch" parent="Theme.AppCompat.Light">
+        <!-- активное состояние (30% прозрачности для фона) -->
+        <item name="colorControlActivated">@android:color/holo_green_light</item>
+
+        <!-- неактивное состояние ползунка -->
+        <item name="colorSwitchThumbNormal">@android:color/holo_orange_dark</item>
+
+        <!-- цвет дорожки для неактивного состояния (30% прозрачности) -->
+        <item name="android:colorForeground">@android:color/darker_gray</item>
+    </style>
+
+    <!--FrameLayout in profile-->
+    <style name="FrameLayoutStyle" parent="">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+
+    <!--ImageView in profile-->
+    <style name="ImageViewStyle" parent="">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center|end</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:padding">-30dp</item>
+        <item name="srcCompat">@drawable/ic_baseline_pen</item>
+    </style>
+
+    <!--TextInputEditText in profile-->
+    <style name="TextInputEditTextProfileStyle" parent="">
+        <item name="android:layout_width">210dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColorHint">@color/lavender_gray_transparent</item>
+        <item name="android:textColor">@color/lavender</item>
+        <item name="android:backgroundTint">@color/lavender</item>
+    </style>
+
+<!--    TextView style for editting in prifile user data -->
+    <style name="TextViewEdittingUserDataProfileStyle" parent="">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textColor">@color/light_pastel_purple_dark</item>
+    </style>
+
+</resources>

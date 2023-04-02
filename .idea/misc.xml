@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/drawable-anydpi/ic_stat_notification.xml" value="0.1855" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/drawable-v24/shape_button.xml" value="0.1675" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/drawable/ic_baseline_add_circle.xml" value="0.1855" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/drawable/ic_baseline_arrow_drop_up.xml" value="0.4225" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/drawable/ic_baseline_arrow_forward.xml" value="0.4075" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/drawable/ic_baseline_call.xml" value="0.4225" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/drawable/ic_baseline_chat.xml" value="0.4225" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/drawable/ic_baseline_favorite.xml" value="0.3625" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/drawable/ic_baseline_menu.xml" value="0.3735" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/drawable/ic_baseline_message.xml" value="0.3735" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/drawable/ic_baseline_profil.xml" value="0.1675" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/drawable/ic_baseline_sailing_24.xml" value="0.2015" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/drawable/ic_baseline_zoom_in.xml" value="0.198" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/drawable/ic_baseline_zoom_out.xml" value="0.198" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/drawable/ic_launcher_background.xml" value="0.306" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/drawable/shape_android_icon.xml" value="0.179" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/drawable/shape_button.xml" value="0.3625" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/drawable/shape_button_rounded.xml" value="0.1675" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/drawable/shape_button_rounded_light.xml" value="0.3625" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/drawable/shape_chat_left.xml" value="0.434" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/drawable/shape_chat_right.xml" value="0.434" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/drawable/shape_constraintlayout_message.xml" value="0.434" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/drawable/shape_launch_screen.xml" value="0.306" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/drawable/shape_navigation_menu.xml" value="0.1675" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/layout/activity_bottom_navigation.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/layout/activity_contacts_information.xml" value="0.4337568058076225" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/layout/activity_conversation.xml" value="0.176" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/layout/activity_main.xml" value="0.4393063583815029" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/layout/activity_main_chat.xml" value="0.176" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/layout/activity_sign_in.xml" value="0.44756756756756755" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/layout/activity_sign_up.xml" value="0.2463768115942029" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/layout/fragment_contacts.xml" value="0.152" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/layout/fragment_contacts_information.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/layout/fragment_dashboard.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/layout/fragment_logout_dialog.xml" value="0.6" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/layout/fragment_max_image_dialog.xml" value="0.4" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/layout/fragment_messages.xml" value="0.4" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/layout/fragment_notifications.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/layout/fragment_profile_client.xml" value="0.5098958333333333" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/layout/fragment_zoom_image.xml" value="0.4" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/layout/item_chat_left.xml" value="0.916289592760181" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/layout/item_chat_left__image.xml" value="0.264" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/layout/item_chat_left_image.xml" value="0.4" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/layout/item_chat_right.xml" value="0.7721088435374149" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/layout/item_chat_right_image.xml" value="0.264" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/layout/item_contacts.xml" value="0.536" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/layout/item_message.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/layout/row_chat_left.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/layout/row_chat_right.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/menu/bottom_nav_menu.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/menu/button_navigation_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/menu/message_1_2_menu.xml" value="0.49322916666666666" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/menu/message_3_4_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/menu/message_menu.xml" value="0.49322916666666666" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/menu/options_menu.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/menu/search_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Anya/AndroidStudioProjects/MyCactusChat/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3625" />
+        <entry key="..\:/Users/Anya/AppData/Local/Android/Sdk/platforms/android-32/data/res/layout/auto_complete_list.xml" value="0.49322916666666666" />
+        <entry key="..\:/Users/Anya/Desktop/MyCactusChat/app/src/main/res/layout/activity_main.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Anya/Desktop/MyCactusChat/app/src/main/res/layout/activity_main_chat.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Anya/Desktop/MyCactusChat/app/src/main/res/layout/row_chat_left.xml" value="0.5541666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

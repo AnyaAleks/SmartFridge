@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/shape_constraintlayout_message"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/imageButtonInformationContacts"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="-5dp"
+            android:background="@drawable/shape_button_rounded_light"
+            android:src="@drawable/ic_baseline_info"
+            app:layout_constraintEnd_toEndOf="@+id/linearLayoutContacts"
+            app:layout_constraintTop_toTopOf="@+id/linearLayoutContacts" />
+
+        <ImageButton
+            android:id="@+id/imageButtonMessageContacts"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape_button_rounded_light"
+            android:src="@drawable/ic_baseline_message"
+            app:layout_constraintEnd_toEndOf="@+id/linearLayoutContacts"
+            app:layout_constraintTop_toTopOf="@+id/linearLayoutContacts" />
+
+        <LinearLayout
+            android:id="@+id/linearLayoutContacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="5dp"
+                app:cardCornerRadius="30dp">
+
+                <ImageView
+                    android:id="@+id/roundedImageViewIconContacts"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/icon" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/textViewHeaderContacts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="35dp"
+                android:text="Cactus Cactusovskiy"
+                android:textColor="@color/lavender"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

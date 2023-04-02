@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group android:id="@+id/menugroup">
+        <item
+            android:id="@+id/menuSearch"
+            android:icon="@mipmap/ic_launcher"
+            android:title="@string/search"/>
+        <item
+            android:id="@+id/menuClearHistory"
+            android:icon="@drawable/ic_baseline_search"
+            android:title="@string/clear_history"/>
+        <item
+            android:id="@+id/menuDeleteChat"
+            android:title="@string/delete_chat">
+        </item>
+    </group>
+<!--    <group android:id="@+id/menugroup2" >-->
+<!--        <item-->
+<!--            android:id="@+id/menu4"-->
+<!--            android:checkable="true"-->
+<!--            android:checked="true"-->
+<!--            android:icon="@mipmap/ic_launcher"-->
+<!--            android:title="Popup menu item 4"/>-->
+<!--        <item-->
+<!--            android:id="@+id/menu5"-->
+<!--            android:title="Popup menu item 5"-->
+<!--            android:enabled="false"/>-->
+    <!--            <menu>-->
+    <!--                <item-->
+    <!--                    android:id="@+id/submenu"-->
+    <!--                    android:title="Подменю"/>-->
+    <!--            </menu>-->
+<!--        <item-->
+<!--            android:id="@+id/menu6"-->
+<!--            android:title="Popup menu item 6"/>-->
+<!--    </group>-->
+
+</menu>
+
+<!--поиск и картинка лупы (Search, Clear history, Delete Chat) -->

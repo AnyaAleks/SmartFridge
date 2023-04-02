@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#e6e6fa</color>
+    <color name="light_pastel_purple">#b19cd9</color>
+    <color name="light_pastel_purple_dark">#B55DC5</color>
+    <color name="dark_purple">#000000</color>
+    <color name="dark_purple_chip">#e6e6fa</color>
+    <color name="dark_purple_launch_screen">#5D3E95</color>
+    <color name="dark_purple_small_transparent">#BC5D3E95</color>
+    <color name="dark_purple_transparent">#755D3E95</color>
+    <color name="dark_purple_gray">#766C87</color>
+    <color name="medium_sky_blue">#80daeb</color>
+    <color name="lavender">#e6e6fa</color>
+    <color name="lavender_gray">#B4E6E6FA</color>
+    <color name="lavender_gray_transparent">#75E6E6FA</color>
+    <color name="lavender_gray_dark">#A499B9</color>
+    <color name="transparent">#00FF0000</color>
+    <color name="transparent_purple">#978A78AA</color>
+    <color name="transparent_purple_light">#74B08BF1</color>
+</resources>
