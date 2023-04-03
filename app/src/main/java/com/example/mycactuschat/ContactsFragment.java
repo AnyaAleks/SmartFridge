@@ -92,7 +92,10 @@ public class ContactsFragment extends Fragment {
                             for (QueryDocumentSnapshot document : task.getResult()) {
                                 //Toast.makeText(getActivity(), document.getId() + " => " + document.getData(), Toast.LENGTH_SHORT).show();
                                 Log.i("MyLog", document.getId() + " => " + document.getData());
-                                Contacts data = new Gson().fromJson(document.getData().toString(), Contacts.class);
+                                Contacts data;
+                                try {
+                                    data = new Gson().fromJson(document.getData().toString(), Contacts.class); //dasha//Unterminated object at line 1 column 34 path $.surname
+                                } catch (Exception e){ return;}
                                 //contactsList.add(document.toObject(Contacts.class));
                                 //Toast.makeText(getActivity(), data.getNameC().toString(), Toast.LENGTH_SHORT).show();
                                 contactsList.add(data);

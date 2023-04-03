@@ -8,8 +8,11 @@
     <item
         android:id="@+id/pageMessage"
         android:enabled="true"
-        android:icon="@drawable/ic_baseline_food_bank"
+        android:icon="@drawable/ic_baseline_menu"
         android:title="@string/messages"/>
+<!--        Почему-то нет этого ресурса                     -->
+<!--        android:icon="@drawable/ic_baseline_food_bank"  -->
+
     <item
         android:id="@+id/pageProfile"
         android:enabled="true"

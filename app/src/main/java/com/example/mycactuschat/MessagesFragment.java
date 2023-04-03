@@ -109,8 +109,10 @@ public class MessagesFragment extends Fragment {
                                                         for (QueryDocumentSnapshot document : task.getResult()) {
                                                             //Toast.makeText(getActivity(), document.getId() + " => " + document.getData(), Toast.LENGTH_SHORT).show();
                                                             //Log.i("MyLog", document.getId() + " => " + document.getData());
-                                                            Contacts dataClient = new Gson().fromJson(document.getData().toString(), Contacts.class); //dasha//Unterminated object at line 1 column 34 path $.surname
-
+                                                            Contacts dataClient;
+                                                            try {
+                                                                dataClient = new Gson().fromJson(document.getData().toString(), Contacts.class); //dasha//Unterminated object at line 1 column 34 path $.surname
+                                                            } catch (Exception e){ return;}
                                                             if(dataClient.getIdC().equals(finalIdAnotherUser)){
                                                                 //Log.i("FINDME", dataMessage.getIdChat());
 
@@ -224,6 +226,9 @@ public class MessagesFragment extends Fragment {
 
             @Override
             public boolean onQueryTextChange(String newText) {
+                if(newText.isEmpty()){
+                    return false;
+                }
                 filter(newText);
                 return false;
             }
