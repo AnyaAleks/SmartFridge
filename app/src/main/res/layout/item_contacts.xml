@@ -29,7 +29,7 @@
             android:layout_marginTop="30dp"
             android:layout_marginRight="5dp"
             android:background="@drawable/shape_button_rounded_light"
-            android:src="@drawable/ic_baseline_message"
+            android:src="@drawable/ic_baseline_messanges"
             app:layout_constraintEnd_toEndOf="@+id/linearLayoutContacts"
             app:layout_constraintTop_toTopOf="@+id/linearLayoutContacts" />
 

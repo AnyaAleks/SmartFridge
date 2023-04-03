@@ -12,6 +12,7 @@ import android.app.ActivityManager;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
+import android.content.ClipData;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -165,32 +166,6 @@ public class MainChatActivity extends AppCompatActivity {
 //        });
 //        return true;
 //    }
-
-
-
-    public void gotoCoversationActivity(View v){
-        switch (v.getId()) {
-            case R.id.buttonAddChat:
-                Toast.makeText(MainChatActivity.this, R.string.future_update, Toast.LENGTH_SHORT).show();
-
-//                Intent intent = new Intent(this, ConversationActivity.class);
-//                startActivity(intent);
-
-
-//                CollectionReference citiesRef = db.collection("cities");
-//                citiesRef.whereArrayContains("regions", "west_coast");
-//
-//                Map<String,Object> userM = new HashMap<>();
-//                userM.put("eee", "nameText");
-//                userM.put("rrr", "surnameText");
-//                userM.put("ttt", "phoneText");
-//
-//                Task<Void> messageRef = db.collection("rooms").document("roomA").collection("messages").document("message1").set(userM);
-
-                //finish();
-                break;
-        }
-    }
 
     //Проверка на закрытое приложение
     public static boolean isForeground(Context context) {

@@ -1,10 +1,14 @@
 package com.example.mycactuschat;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SearchView;
 
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -23,7 +27,7 @@ public class ContactsInformationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contacts_information);
 
-        getSupportActionBar().hide();
+        getSupportActionBar().setTitle(R.string.newreciept_caps); ///НАЗВАНИЕ РЕЦЕПТА
         getWindow().setNavigationBarColor(getResources().getColor(R.color.dark_purple));
 
         Bundle arguments = getIntent().getExtras();
@@ -50,14 +54,56 @@ public class ContactsInformationActivity extends AppCompatActivity {
         textViewEmailContactsInfo.setText(contacts.getEmailC());
     }
 
-    public void gotoMainChatActivityInfo(View v){
+    public void saveNewRecipe(View v){
         switch (v.getId()) {
             case R.id.textViewCancel:
-                Intent intent = new Intent(this, MainChatActivity.class);
-                startActivity(intent);
-
-                finish();
+                ///СОХРАНЕНИЕ
                 break;
         }
     }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        super.onCreateOptionsMenu(menu);
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.search_menu, menu);
+
+        MenuItem searchItem = menu.findItem(R.id.actionSearch);
+        searchItem.setVisible(false);
+
+        MenuItem addItem = menu.findItem(R.id.actionSMT);
+        addItem.setIcon(R.drawable.ic_baseline_cancel);
+        addItem.setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                finish();
+                return true;
+            }
+        });
+
+        return true;
+    }
+
+//    @Override
+//    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+//        super.onCreateOptionsMenu(menu,inflater);
+//        inflater.inflate(R.menu.search_menu, menu);
+//
+//        MenuItem searchItem = menu.findItem(R.id.actionSearch);
+//        SearchView searchView = (SearchView) searchItem.getActionView();
+//        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+//            @Override
+//            public boolean onQueryTextSubmit(String query) {
+//                return false;
+//            }
+//
+//            @Override
+//            public boolean onQueryTextChange(String newText) {
+//                filter(newText);
+//                return false;
+//            }
+//        });
+//
+
+//    }
 }

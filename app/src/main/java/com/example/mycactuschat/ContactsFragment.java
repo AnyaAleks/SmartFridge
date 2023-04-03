@@ -212,6 +212,17 @@ public class ContactsFragment extends Fragment {
                 return false;
             }
         });
+
+        MenuItem addItem = menu.findItem(R.id.actionSMT);
+        addItem.setIcon(R.drawable.ic_baseline_add);
+        addItem.setOnMenuItemClickListener(new MenuItem.OnMenuItemClickListener() {
+            @Override
+            public boolean onMenuItemClick(MenuItem item) {
+                //add new reciept
+                Toast.makeText(getActivity(), "Clicked", Toast.LENGTH_SHORT).show();
+                return true;
+            }
+        });
     }
 
     private void filter(String text) {

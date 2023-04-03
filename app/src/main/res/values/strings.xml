@@ -10,13 +10,14 @@
     <string name="password">Password</string>
     <string name="dont_have_account">"Don't have account?"</string>
     <string name="create_account">"C R E A T E     A C C O U N T"</string>
-    <string name="contacts">Contacts</string>
-    <string name="messages">Messages</string>
+    <string name="contacts">Recipes</string>
+    <string name="messages">Products</string>
     <string name="profile">Profile</string>
     <string name="message">Message...</string>
     <string name="search">Search</string>
     <string name="clear_history">"Clear history"</string>
-    <string name="delete_chat">"Delete Chat"</string>
+    <string name="delete_chat">"Leave Chat"</string>
+    <string name="invite_chat">"Invite Chat"</string>
     <string name="email">Email</string>
     <string name="phone">Phone</string>
     <string name="sing_in_now">"SING IN NOW"</string>
@@ -32,9 +33,10 @@
     <string name="dark_mode">"Dark Mode"</string>
     <string name="light_mode">"Light Mode"</string>
     <string name="logout">"Logout "</string>
-    <string name="contacts_caps">"C O N T A C T S"</string>
-    <string name="messages_caps">"M E S S A G E S"</string>
+    <string name="contacts_caps">"R E C I P E S"</string>
+    <string name="messages_caps">"P R O D U C T S"</string>
     <string name="profile_caps">"P R O F I L E"</string>
+    <string name="newreciept_caps">"N E W   R E C I P E"</string>
     <string name="done">Done</string>
     <string name="take_photo">"Take Photo"</string>
     <string name="choose_from_gallery">"Choose from Gallery"</string>
@@ -62,4 +64,5 @@
     <string name="error_delete_profile">"Error to delete profile!"</string>
     <string name="future_update">"Group chats will be available in the next update"</string>
     <string name="unread_message">"You have new message"</string>
+    <string name="save">"Save"</string>
 </resources>

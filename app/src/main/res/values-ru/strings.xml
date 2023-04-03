@@ -11,13 +11,14 @@
     <string name="password">Пароль</string>
     <string name="dont_have_account">"Нет аккаунта?"</string>
     <string name="create_account">"С О З Д А Й     А К К А У Н Т"</string>
-    <string name="contacts">Контакты</string>
-    <string name="messages">Сообщения</string>
+    <string name="contacts">Рецепты</string>
+    <string name="messages">Продукты</string>
     <string name="profile">Профиль</string>
     <string name="message">"Сообщение..."</string>
     <string name="search">Поиск</string>
     <string name="clear_history">"Очистить историю"</string>
-    <string name="delete_chat">"Удалить чат"</string>
+    <string name="delete_chat">"Покинуть чат"</string>
+    <string name="invite_chat">"Пригласить в чат"</string>
     <string name="email">Почта</string>
     <string name="phone">Телефон</string>
     <string name="sing_in_now">"ДОБРО ПОЖАЛОВАТЬ"</string>
@@ -33,9 +34,10 @@
     <string name="dark_mode">"Темная тема"</string>
     <string name="light_mode">"Светлая тема"</string>
     <string name="logout">"Выйти из профиля "</string>
-    <string name="contacts_caps">"К О Н Т А К Т Ы"</string>
-    <string name="messages_caps">"С О О Б Щ Е Н И Я"</string>
+    <string name="contacts_caps">"Р Е Ц Е П Т Ы"</string>
+    <string name="messages_caps">"П Р О Д У К Т Ы"</string>
     <string name="profile_caps">"П Р О Ф И Л Ь"</string>
+    <string name="newreciept_caps">"Н О В Ы Й   Р Е Ц Е П Т"</string>
     <string name="done">Готово</string>
     <string name="take_photo">"Использовать камеру"</string>
     <string name="choose_from_gallery">"Выбрать из галереи"</string>
@@ -63,4 +65,5 @@
     <string name="error_delete_profile">"Ошибка удаления профиля!"</string>
     <string name="future_update">"Групповые чаты будут доступны в следующем обновлении"</string>
     <string name="unread_message">"У вас новое сообщение"</string>
+    <string name="save">"Сохранить"</string>
 </resources>

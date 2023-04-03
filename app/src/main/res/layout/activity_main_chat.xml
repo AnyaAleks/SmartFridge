@@ -15,8 +15,6 @@
             android:layout_height="743dp"
             android:layout_weight="1" >
 
-                <!-- Base CardView -->
-
 
 
         <com.google.android.material.bottomnavigation.BottomNavigationView

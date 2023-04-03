@@ -632,6 +632,9 @@ public class ConversationActivity extends AppCompatActivity {
                                 });
 
                                 return true;
+                            case R.id.menuInviteChat:
+                               //invite friends
+                                return true;
                             default:
                                 return false;
                         }
