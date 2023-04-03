@@ -66,4 +66,7 @@
     <string name="future_update">"Групповые чаты будут доступны в следующем обновлении"</string>
     <string name="unread_message">"У вас новое сообщение"</string>
     <string name="save">"Сохранить"</string>
+    <string name="favourites">"Избранное"</string>
+    <string name="personal">"Личные"</string>
+    <string name="all">"Все"</string>
 </resources>

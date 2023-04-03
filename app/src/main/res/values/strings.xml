@@ -65,4 +65,7 @@
     <string name="future_update">"Group chats will be available in the next update"</string>
     <string name="unread_message">"You have new message"</string>
     <string name="save">"Save"</string>
+    <string name="favourites">"Favourites"</string>
+    <string name="personal">"Personal"</string>
+    <string name="all">"All"</string>
 </resources>
